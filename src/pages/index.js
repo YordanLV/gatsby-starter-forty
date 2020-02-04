@@ -3,8 +3,10 @@ import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
+import ArticleTile from '../components/ArticleTile'
 
-import pic01 from '../assets/images/pic01.jpg'
+import weatherAppPic from '../assets/images/weather-app.jpg'
+import jeansCentre from '../assets/images/jeans-centre.jpg'
 import pic02 from '../assets/images/pic02.jpg'
 import pic03 from '../assets/images/pic03.jpg'
 import pic04 from '../assets/images/pic04.jpg'
@@ -26,48 +28,30 @@ const Generic = props => {
 
       <div id="main">
         <section id="one" className="tiles">
-          <article style={{ backgroundImage: `url(${pic01})` }}>
-            <header className="major">
-              <h3>Aliquam</h3>
-              <p>Ipsum dolor sit amet</p>
-            </header>
-            <Link to="/landing" className="link primary"></Link>
-          </article>
-          <article style={{ backgroundImage: `url(${pic02})` }}>
-            <header className="major">
-              <h3>Tempus</h3>
-              <p>feugiat amet tempus</p>
-            </header>
-            <Link to="/landing" className="link primary"></Link>
-          </article>
-          <article style={{ backgroundImage: `url(${pic03})` }}>
-            <header className="major">
-              <h3>Magna</h3>
-              <p>Lorem etiam nullam</p>
-            </header>
-            <Link to="/landing" className="link primary"></Link>
-          </article>
-          <article style={{ backgroundImage: `url(${pic04})` }}>
-            <header className="major">
-              <h3>Ipsum</h3>
-              <p>Nisl sed aliquam</p>
-            </header>
-            <Link to="/landing" className="link primary"></Link>
-          </article>
-          <article style={{ backgroundImage: `url(${pic05})` }}>
-            <header className="major">
-              <h3>Consequat</h3>
-              <p>Ipsum dolor sit amet</p>
-            </header>
-            <Link to="/landing" className="link primary"></Link>
-          </article>
-          <article style={{ backgroundImage: `url(${pic06})` }}>
-            <header className="major">
-              <h3>Etiam</h3>
-              <p>Feugiat amet tempus</p>
-            </header>
-            <Link to="/landing" className="link primary"></Link>
-          </article>
+          <ArticleTile
+            bgImg={weatherAppPic}
+            title="Weather App"
+            text="React Hooks/Redux Based Weather App"
+            link="/landing"
+          />
+          <ArticleTile
+            bgImg={jeansCentre}
+            title="JeansCentre.be"
+            text="A lightning fast, large scale Gatsby project for a microservice ecommerce store."
+            link="/landing"
+          />
+          <ArticleTile
+            bgImg={weatherAppPic}
+            title="Aliquam"
+            text="Ipsum dolor sit amet"
+            link="/landing"
+          />
+          <ArticleTile
+            bgImg={weatherAppPic}
+            title="Aliquam"
+            text="Ipsum dolor sit amet"
+            link="/landing"
+          />
         </section>
         <section id="two">
           <div className="inner">

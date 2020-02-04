@@ -7,13 +7,11 @@ const Banner = props => (
         <h1>THE WEB EVERYTHING</h1>
       </header>
       <div className="content">
-        <p>
-         The only portfolio of Yordan Lasonov.
-        </p>
+        <p>The online portfolio of Yordan Lasonov.</p>
         <ul className="actions">
           <li>
             <a href="#one" className="button next scrolly">
-              Learn More
+              See Projects
             </a>
           </li>
         </ul>
