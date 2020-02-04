@@ -7,6 +7,8 @@ import ArticleTile from '../components/ArticleTile'
 
 import weatherAppPic from '../assets/images/weather-app.jpg'
 import jeansCentre from '../assets/images/jeans-centre.jpg'
+import solabels from '../assets/images/solabels.jpg'
+import geberit from '../assets/images/geberit.jpg'
 import pic02 from '../assets/images/pic02.jpg'
 import pic03 from '../assets/images/pic03.jpg'
 import pic04 from '../assets/images/pic04.jpg'
@@ -37,19 +39,19 @@ const Generic = props => {
           <ArticleTile
             bgImg={jeansCentre}
             title="JeansCentre.be"
-            text="A lightning fast, large scale Gatsby project for a microservice ecommerce store."
+            text="A lightning fast, large scale, Gatsby project for a microservice ecommerce store."
             link="/landing"
           />
           <ArticleTile
-            bgImg={weatherAppPic}
-            title="Aliquam"
-            text="Ipsum dolor sit amet"
+            bgImg={solabels}
+            title="SOLabels.com"
+            text="A small Gatsby project for a solar label company."
             link="/landing"
           />
           <ArticleTile
-            bgImg={weatherAppPic}
-            title="Aliquam"
-            text="Ipsum dolor sit amet"
+            bgImg={geberit}
+            title="Catalog.Geberit.ch"
+            text="A large scale catalog besed on Commercetools."
             link="/landing"
           />
         </section>
