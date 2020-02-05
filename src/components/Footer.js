@@ -5,16 +5,6 @@ const Footer = props => (
     <div className="inner">
       <ul className="icons">
         <li>
-          <a href="#" className="icon alt fa-twitter">
-            <span className="label">Twitter</span>
-          </a>
-        </li>
-        <li>
-          <a href="#" className="icon alt fa-facebook">
-            <span className="label">Facebook</span>
-          </a>
-        </li>
-        <li>
           <a href="#" className="icon alt fa-instagram">
             <span className="label">Instagram</span>
           </a>
@@ -31,7 +21,7 @@ const Footer = props => (
         </li>
       </ul>
       <ul className="copyright">
-        <li>&copy; {new Date().getFullYear()} The Web Everything</li>
+        <li>&copy; {new Date().getFullYear()} Digitial Hills</li>
       </ul>
     </div>
   </footer>

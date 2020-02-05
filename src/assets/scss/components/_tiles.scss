@@ -43,9 +43,33 @@
       display: none;
     }
 
+    .year {
+      position: absolute;
+      top: 1rem;
+      left: 1rem;
+      font-size: 0.7em;
+    }
+
     header {
       position: relative;
       z-index: 3;
+    }
+
+    .skills {
+      position: absolute;
+      left: 1rem;
+      bottom: 1rem;
+      font-size: 0.7em;
+    }
+
+    .year,
+    .skills {
+      span {
+        opacity: 0;
+        padding: 0.4em;
+        background-color: rgba(0, 0, 0, 0.75);
+        margin-right: 0.5em;
+      }
     }
 
     h3 {
@@ -94,7 +118,13 @@
     }
 
     &:hover {
-      text-shadow: 0.1rem 0.1rem rgba(0, 0, 0, 0.5);
+      text-shadow: 0.2rem 0.2rem rgba(0, 0, 0, 0.75);
+      .skills,
+      .year {
+        span {
+          opacity: 1;
+        }
+      }
       &:before {
         opacity: 0;
       }

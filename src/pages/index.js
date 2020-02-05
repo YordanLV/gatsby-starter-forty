@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
@@ -9,11 +8,10 @@ import weatherAppPic from '../assets/images/weather-app.jpg'
 import jeansCentre from '../assets/images/jeans-centre.jpg'
 import solabels from '../assets/images/solabels.jpg'
 import geberit from '../assets/images/geberit.jpg'
-import pic02 from '../assets/images/pic02.jpg'
-import pic03 from '../assets/images/pic03.jpg'
-import pic04 from '../assets/images/pic04.jpg'
-import pic05 from '../assets/images/pic05.jpg'
-import pic06 from '../assets/images/pic06.jpg'
+import nextWordpress from '../assets/images/next-wordpress.jpg'
+import xura from '../assets/images/xura.jpg'
+import react2048 from '../assets/images/2048.jpg'
+import symatec from '../assets/images/symantec.jpg'
 
 const Generic = props => {
   return (
@@ -35,47 +33,87 @@ const Generic = props => {
             title="Weather App"
             text="React Hooks/Redux Based Weather App"
             link="/landing"
+            skills={['React Hooks', 'Redux', 'Styled']}
+            year="2020"
           />
           <ArticleTile
             bgImg={jeansCentre}
             title="JeansCentre.be"
             text="A lightning fast, large scale, Gatsby project for a microservice ecommerce store."
             link="/landing"
+            skills={['Gatsby', 'Mobx', 'GraphQL', 'Prismic', 'AWS']}
+            year="2019"
           />
           <ArticleTile
             bgImg={solabels}
             title="SOLabels.com"
             text="A small Gatsby project for a solar label company."
             link="/landing"
+            skills={['React Hooks', 'Prismic', 'GraphQL', 'Styled']}
+            year="2019"
+          />
+          <ArticleTile
+            bgImg={nextWordpress}
+            title="Next.js Wordpress Starter"
+            text="A SSR React starter using wordpress as a headless CMS."
+            skills={['Wordpress', 'Next.js', 'Apollo + GraphQL', 'Styled']}
+            link="/landing"
+            year="2020"
           />
           <ArticleTile
             bgImg={geberit}
             title="Catalog.Geberit.ch"
             text="A large scale catalog besed on Commercetools."
+            skills={['Handlebars', 'Gulp', 'jQuery', 'Jenkins']}
             link="/landing"
+            year="2017 - 2018"
+          />
+          <ArticleTile
+            bgImg={xura}
+            title="A unique, immersive 720º VR experience"
+            text="Delivered using Unity / Android via the Samsung Gear VR"
+            link="/landing"
+            skills={['GearVR', 'Unity', 'AfterEffects']}
+            position="bottom"
+            year="2016"
+          />
+          <ArticleTile
+            bgImg={symatec}
+            title="Symantec Interactive Video Panel"
+            text="Some ES5 and Canvas magic :)"
+            link="/landing"
+            skills={['HTML5 Canvas']}
+            position="bottom"
+            year="2016"
+          />
+          <ArticleTile
+            bgImg={react2048}
+            title="A retro twist of the poluplar 2048 game"
+            text="Done with React, Redux & styled components."
+            link="/landing"
+            skills={['React', 'Redux', 'Styled']}
+            position="bottom"
+            year="2018"
           />
         </section>
         <section id="two">
           <div className="inner">
             <header className="major">
-              <h2>Massa libero</h2>
+              <h2>That one guy, Yordan</h2>
             </header>
             <p>
-              Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-              libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-              Pellentesque condimentum sem. In efficitur ligula tate urna.
-              Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-              Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-              libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra
-              et feugiat tempus.
+              A full-stack developer and watermelon enthusiast. I do various
+              stuff and some of them can be seen above this section. In my free
+              time, if any, I play with music, AIs, AIs that make music and some
+              other hypes of 2020. 
             </p>
-            <ul className="actions">
+            {/* <ul className="actions">
               <li>
                 <Link to="/landing" className="button next">
                   Get Started
                 </Link>
               </li>
-            </ul>
+            </ul> */}
           </div>
         </section>
       </div>
