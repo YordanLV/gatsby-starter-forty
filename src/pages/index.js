@@ -75,7 +75,7 @@ const Generic = props => {
               'SASS',
               'Jenkins',
             ]}
-            link="/projects/geberit"
+            link="https://catalog.geberit.ch/"
             year="2017 - 2018"
           />
           <ArticleTile
@@ -91,7 +91,7 @@ const Generic = props => {
             bgImg={symatec}
             title="Symantec Interactive Video Panel"
             text="Some ES5 and Canvas magic :)"
-            link="/project/"
+            link="https://github.com/YordanLV/Symantec-Canvas-Video"
             skills={['HTML5 Canvas']}
             position="bottom"
             year="2016"
@@ -100,7 +100,7 @@ const Generic = props => {
             bgImg={react2048}
             title="A retro twist of the 2048 game"
             text="Done with React, Redux & styled components."
-            link="/landing"
+            link="https://github.com/YordanLV/React-2048"
             skills={['React', 'Redux', 'Styled']}
             position="bottom"
             year="2018"

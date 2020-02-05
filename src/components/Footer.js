@@ -5,17 +5,23 @@ const Footer = props => (
     <div className="inner">
       <ul className="icons">
         <li>
-          <a href="#" className="icon alt fa-instagram">
+          <a
+            href="https://www.instagram.com/yordanlas/"
+            className="icon alt fa-instagram"
+          >
             <span className="label">Instagram</span>
           </a>
         </li>
         <li>
-          <a href="#" className="icon alt fa-github">
+          <a href="https://github.com/YordanLV" className="icon alt fa-github">
             <span className="label">GitHub</span>
           </a>
         </li>
         <li>
-          <a href="#" className="icon alt fa-linkedin">
+          <a
+            href="https://www.linkedin.com/in/yor/"
+            className="icon alt fa-linkedin"
+          >
             <span className="label">LinkedIn</span>
           </a>
         </li>
