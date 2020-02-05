@@ -4,8 +4,8 @@ import Helmet from 'react-helmet'
 import Layout from 'src/components/layout'
 import BannerLanding from 'src/components/BannerLanding'
 
-import pic08 from 'src/assets/images/pic08.jpg'
-import pic09 from 'src/assets/images/pic09.jpg'
+import picJcCode from 'src/assets/images/pic-jc-code.jpg'
+import picJcSite from 'src/assets/images/pic-jc-site.jpg'
 
 const website = 'https://www.jeanscentre.be/'
 const repo = 'https://github.com/YordanLV/jeanscenter'
@@ -13,13 +13,13 @@ const repo = 'https://github.com/YordanLV/jeanscenter'
 const Landing = props => (
   <Layout>
     <Helmet>
-      <title>Digital Hills - Jeans Centre - Yordan Lasonov</title>
+      <title>Digit Hills - Jeans Centre - Yordan Lasonov</title>
       <meta name="description" content="The making of jeanscentre.be" />
     </Helmet>
 
     <BannerLanding
       title="JeansCentre.be"
-      text="A lightning-fast, large scale, eCommerce web project done with the superpowers of Gatsby and AWS."
+      text="A lightning-fast, large scale, e-commerce web project done with the superpowers of Gatsby and AWS."
     >
       {website && (
         <Link to={website} className="button button--landing">
@@ -36,14 +36,14 @@ const Landing = props => (
     <div id="main">
       <section id="one">
         <div className="inner">
-          <p>Lorem</p>
+          <p> </p>
         </div>
       </section>
       <section id="two" className="spotlights">
         {website && (
           <section>
             <Link to={website} className="image">
-              <img src={pic08} alt="" />
+              <img src={picJcSite} alt="Website" />
             </Link>
             <div className="content">
               <div className="inner">
@@ -73,7 +73,7 @@ const Landing = props => (
         {repo && (
           <section>
             <Link to={repo} className="image">
-              <img src={pic09} alt="" />
+              <img src={picJcCode} alt="Code" />
             </Link>
             <div className="content">
               <div className="inner">

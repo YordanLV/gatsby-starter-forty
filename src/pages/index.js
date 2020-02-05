@@ -17,7 +17,7 @@ const Generic = props => {
   return (
     <Layout>
       <Helmet
-        title="Digital Hills - Portfolio - Yordan Lasonov"
+        title="Digit Hills - Portfolio - Yordan Lasonov"
         meta={[
           {
             name: 'description',

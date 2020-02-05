@@ -18,7 +18,7 @@ const aboutRepo = ''
 const Landing = props => (
   <Layout>
     <Helmet>
-      <title>Digital Hills - Jeans Centre - Yordan Lasonov</title>
+      <title>Digit Hills - Jeans Centre - Yordan Lasonov</title>
       <meta name="description" content="The making of jeanscentre.be" />
     </Helmet>
 

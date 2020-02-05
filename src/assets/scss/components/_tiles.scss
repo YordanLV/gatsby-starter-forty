@@ -29,6 +29,7 @@
         'transform 0.25s ease',
         'opacity 0.25s ease',
         'filter 1s ease',
+        'box-shadow 0.25 ease',
         '-webkit-filter 1s ease'
       )
     );
@@ -43,6 +44,7 @@
     overflow: hidden;
     position: relative;
     width: 40%;
+    box-shadow: inset 0 0 0 #000000;
 
     .image {
       display: none;
@@ -124,6 +126,7 @@
 
     &:hover {
       text-shadow: 0.1rem 0.1rem rgba(0, 0, 0, 0.6);
+      box-shadow: inset 0 0 10px #000000;
       h3,
       p {
         animation: blinker 4s linear infinite;

@@ -21,7 +21,7 @@ const Footer = props => (
         </li>
       </ul>
       <ul className="copyright">
-        <li>&copy; {new Date().getFullYear()} Digitial Hills</li>
+        <li>&copy; {new Date().getFullYear()} Digit Hills</li>
       </ul>
     </div>
   </footer>
