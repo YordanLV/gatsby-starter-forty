@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import Link from '../components/Link'
 
 const testArr = ['item 1', 'item 2']
 

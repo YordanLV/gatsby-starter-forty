@@ -5,6 +5,11 @@
 ///
 
 /* Tiles */
+@keyframes blinker {
+  50% {
+    opacity: 0.75;
+  }
+}
 
 .tiles {
   @include vendor('display', 'flex');
@@ -118,7 +123,11 @@
     }
 
     &:hover {
-      text-shadow: 0.2rem 0.2rem rgba(0, 0, 0, 0.75);
+      text-shadow: 0.1rem 0.1rem rgba(0, 0, 0, 0.6);
+      h3,
+      p {
+        animation: blinker 4s linear infinite;
+      }
       .skills,
       .year {
         span {
@@ -189,7 +198,7 @@
 
   @include breakpoint(medium) {
     article {
-      width: 50% !important;
+      width: 100% !important;
     }
   }
 
