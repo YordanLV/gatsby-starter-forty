@@ -100,7 +100,7 @@ const Generic = props => {
             bgImg={react2048}
             title="A retro twist of the 2048 game"
             text="Done with React, Redux & styled components."
-            link="https://github.com/YordanLV/React-2048"
+            link="https://codesandbox.io/s/trusting-shape-mvtbf"
             skills={['React', 'Redux', 'Styled']}
             position="bottom"
             year="2018"
