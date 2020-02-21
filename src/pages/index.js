@@ -115,13 +115,14 @@ const Generic = props => {
               A designer, full-stack(ish) developer and watermelon enthusiast. I
               do various stuff and some of them can be seen above this section.
               In my free time, if any, I play with music, AIs, AIs that make
-              music and some other hypes of 2020. 
+              music and some other hypes of 2020. If you want to hire me, make
+              something together or just say whatever hit me up on my email.
             </p>
             {/* <ul className="actions">
               <li>
                 <Link to="/landing" className="button next">
                   Get Started
-                </Link>
+                </Link>s
               </li>
             </ul> */}
           </div>

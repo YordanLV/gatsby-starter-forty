@@ -14,7 +14,7 @@ const Landing = props => (
   <Layout>
     <Helmet>
       <title>Digit Hills - Jeans Centre - Yordan Lasonov</title>
-      <meta name="description" content="The making of jeanscentre.be" />
+      <meta name="description" content="The making of XURA 720 Experience" />
     </Helmet>
 
     <BannerLanding
